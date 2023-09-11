@@ -6,6 +6,10 @@
   height: 40vmin;
   pointer-events: none;
 }
+.scooty {
+  filter: hue-rotate(var(--scooty-color, 0deg));
+  transition: filter 0.3s ease-in-out;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
